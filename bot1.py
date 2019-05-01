@@ -44,7 +44,7 @@ def createDigitsModel(fontfile, digitheight):
 
 class Board(object):
     UP, DOWN, LEFT, RIGHT = 1, 2, 3, 4
-    FONT = "font/ClearSansBold.ttf"
+    FONT = "ClearSansBold.ttf"
 
     def __init__(self, clientwindowtitle):
         self.hwnd = self.getClientWindow(clientwindowtitle)
